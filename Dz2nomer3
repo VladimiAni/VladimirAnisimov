@@ -1,0 +1,27 @@
+a=int(input("Введите целое число от 1 до 12 включая: "))
+if a==1
+    print('зима январь')
+elif a=2:
+    print('зима февраль')
+elif a=3:
+    print('весна март')
+elif a=4:
+    print('весна апрель')
+elif a=5:
+    print('весна май')
+elif a=6:
+   print('лето июнь')
+elif a=7:
+   print('лето июль')
+elif a=8:
+   print('лето август')
+elif a=9:
+   print('осень сентябрь')
+elif a=10:
+   print('осень октябрь')
+elif a=11:
+   print('осень ноябрь')
+elif a=12:
+   print('зима декабрь')
+else:
+    print('ошибка')
