@@ -1,0 +1,14 @@
+
+string = "бываетн жен у нннаоов приветн"
+new_string = string.replace("н", "!")
+print(new_string)
+
+string = 'uisdfuh(sajdk0)'
+print(string[string.index('(')+1:string.index(')')])
+
+string = 'азия австралия маша соня да'
+for i in string.split():
+    if (i.startswith("a") or i.endswith("я")):
+        print(i)
+
+    
