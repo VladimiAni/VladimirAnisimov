@@ -1,7 +1,0 @@
-import math
-PI = 3.1415
-radius = int(input("Введите радиус в сантиметрах: "))
-line = 2*PI*radius
-krug=PI*radius*radius
-print(round(line, 2))
-print(round(krug, 2))
