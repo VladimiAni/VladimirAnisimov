@@ -1,6 +1,0 @@
-import math
-g = 9.81
-PI = 3.1415
-l=int(input('Введите длину в метрах: '))
-t=2*PI*math.sqrt(l/g)
-print(round(t, 2))
