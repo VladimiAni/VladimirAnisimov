@@ -1,0 +1,48 @@
+year = int(input("Введите год: "))
+if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+  print(f"{year} год является високосным.")
+    
+else:
+  print(f"{year} год не является високосным.")
+    
+print("Случайный список:", random_list)
+
+
+
+import random
+def generate_random_list_sample(n,nahalo,konet):
+    return random.sample(range(nahalo,konet + 1),n)
+n=10
+nahalo=1
+konet=100
+random_list = generate_random_list_sample(n,nahalo,konet)
+print("Случайный список:", random_list) 
+
+
+
+
+   
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0.1,10,100)
+y = np.log(x) #логарифмическая функция
+
+tochka_x = [1,np.e]
+tochka_y = np.log(tochka_x)
+plt.plot(x, y, label= 'y = ln(x)')
+plt.scatter(tochka_x,tochka_y,color = 'blue',label='Основные точки')
+
+plt.grid(True)
+plt.legend()
+
+plt.xlabel("x")
+plt.ylabel("y = ln(x)")
+plt.title("График функции y=ln(x)")
+
+plt.show()
+
+
+
+
+
